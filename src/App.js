@@ -1,8 +1,8 @@
+import Error from "./components/Error";
+import Clima from "./components/Clima";
+import Formulario from "./components/Formulario";
 import Header from "./components/Header";
 import { Fragment, useState, useEffect } from "react";
-import Formulario from "./components/Formulario";
-import Clima from "./components/Clima";
-import Error from "./components/Error";
 
 function App() {
   // state
@@ -46,6 +46,7 @@ function App() {
       }
     };
     consultarApi();
+    //eslint-disable-next-line
   }, [consultar]);
 
   // si hay un error
