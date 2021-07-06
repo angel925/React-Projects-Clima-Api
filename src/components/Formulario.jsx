@@ -4,10 +4,9 @@ import PropTypes from "prop-types";
 
 const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
  
-
   // state para error
   const [error, guardarError] = useState(false);
-
+  //destructuring para extrar las propiedades
   const { ciudad, pais } = busqueda;
 
   const handleChange = (e) => {
@@ -19,7 +18,6 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     // validad
     if (ciudad.trim() === "" || pais.trim() === "") {
       guardarError(true);
@@ -27,7 +25,6 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
     }
     //guarda el error en false
     guardarError(false);
-
 
     guardarConsultar(true)
   };
@@ -76,15 +73,9 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
     </form>
   );
 };
-
 Formulario.propTypes = {
-
   busqueda : PropTypes.object.isRequired,
   guardarBusqueda : PropTypes.func.isRequired,
   guardarConsultar: PropTypes.func.isRequired
-
-
 }
-
-
 export default Formulario;
