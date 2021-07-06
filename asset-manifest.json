@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Projects-Clima-Api/static/css/main.29cc4118.chunk.css",
-    "main.js": "/React-Projects-Clima-Api/static/js/main.81d91d6b.chunk.js",
-    "main.js.map": "/React-Projects-Clima-Api/static/js/main.81d91d6b.chunk.js.map",
+    "main.js": "/React-Projects-Clima-Api/static/js/main.ee3a83c7.chunk.js",
+    "main.js.map": "/React-Projects-Clima-Api/static/js/main.ee3a83c7.chunk.js.map",
     "runtime-main.js": "/React-Projects-Clima-Api/static/js/runtime-main.764baf00.js",
     "runtime-main.js.map": "/React-Projects-Clima-Api/static/js/runtime-main.764baf00.js.map",
     "static/js/2.9d178190.chunk.js": "/React-Projects-Clima-Api/static/js/2.9d178190.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.764baf00.js",
     "static/js/2.9d178190.chunk.js",
     "static/css/main.29cc4118.chunk.css",
-    "static/js/main.81d91d6b.chunk.js"
+    "static/js/main.ee3a83c7.chunk.js"
   ]
 }
